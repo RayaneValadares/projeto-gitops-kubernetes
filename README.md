@@ -186,11 +186,11 @@ Aguarde até o status mudar para Healthy e Synced ✅
 Execute o port-forward para acessar a aplicação:
 
 ```bash
-kubectl port-forward svc/frontend -n default 8080:80
+kubectl port-forward svc/frontend 8081:80
 ```
 
 Acesse no navegador:
-🌐 http://localhost:8080
+🌐 http://localhost:8081
 
 <img width="1653" height="922" alt="boutique" src="https://github.com/user-attachments/assets/4cbe7026-66ca-42ed-ac36-7043ef07c2c3" />
 
