@@ -61,7 +61,7 @@ cd Projeto-GitOps-K8s
 
 - Fork e repositório GitHub: Fork do repositório oficial: a. https://github.com/GoogleCloudPlatform/microservices-demo
 
-<img width="1406" height="916" alt="google" src="https://github.com/user-attachments/assets/eb8cc62e-b8fb-45f8-83c8-7ec2c3ef5281" />
+<img width="1406" height="916" alt="google" src="https://github.com/user-attachments/assets/69d035bb-78f6-4595-b995-2c638ef728d5" />
 
 <br>
 <br>
