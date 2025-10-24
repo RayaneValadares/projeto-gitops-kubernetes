@@ -86,7 +86,7 @@ Crie o namespace para o ArgoCD:
 kubectl create namespace argocd
 ```
 
-<img width="991" height="936" alt="create" src="https://github.com/user-attachments/assets/76d720d9-5054-41dd-841f-fc52a37363cc" />
+<img width="991" height="936" alt="create" src="https://github.com/user-attachments/assets/9a34909c-7caf-476d-a5fe-408501ba3c38" />
 
 Aplique o manifest oficial de instalação:
 
@@ -100,7 +100,7 @@ Depois, exponha o serviço do ArgoCD localmente (mantenha esse terminal aberto):
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 ```
 
-<img width="772" height="513" alt="port-forward" src="https://github.com/user-attachments/assets/9d8e9d82-552d-43e7-8f05-c1ff572d951c" />
+<img width="772" height="513" alt="port-forward" src="https://github.com/user-attachments/assets/626ab90b-bbfe-48b8-8130-6b7fe76c2db1" />
 
 <br>
 <br>
@@ -141,7 +141,7 @@ No painel do ArgoCD:
 
   Password: seu Personal Access Token (PAT)
 
-<img width="1708" height="742" alt="argocd" src="https://github.com/user-attachments/assets/f9f474b7-a8c9-405e-aad6-d2e91de78e46" />
+<img width="1708" height="742" alt="argocd" src="https://github.com/user-attachments/assets/1cf5b316-a5b7-47d1-a191-d5a72fc26cf7" />
 
 - Clique em CONNECT e confirme o status “Successful”.
 
@@ -166,7 +166,7 @@ No painel do ArgoCD:
 
 - Clique em CREATE.
 
-<img width="819" height="367" alt="5argocd" src="https://github.com/user-attachments/assets/c5d2db95-b6f4-4009-bbfd-7d8443b71cfa" />
+<img width="819" height="367" alt="5argocd" src="https://github.com/user-attachments/assets/5bd8ee68-d971-4a82-91f3-a420e8a52438" />
 
 <Br>
 <BR>
@@ -192,7 +192,7 @@ kubectl port-forward svc/frontend -n default 8080:80
 Acesse no navegador:
 🌐 http://localhost:8080
 
-<img width="1653" height="922" alt="boutique" src="https://github.com/user-attachments/assets/36be3431-5ef7-4d52-be85-93d79da3c6fe" />
+<img width="1653" height="922" alt="boutique" src="https://github.com/user-attachments/assets/4cbe7026-66ca-42ed-ac36-7043ef07c2c3" />
 
 A aplicação Online Boutique deve estar rodando corretamente 🎉
 
